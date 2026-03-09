@@ -1,87 +1,90 @@
 <?xml version="1.0"?>
 <rdf:RDF xmlns="http://www.w3.org/ns/org#"
      xml:base="http://www.w3.org/ns/org"
+     xmlns:gr="http://purl.org/goodrelations/v1#"
+     xmlns:dct="http://purl.org/dc/terms/"
      xmlns:org="http://www.w3.org/ns/org#"
      xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
-     xmlns:gr="http://purl.org/goodrelations/v1#"
+     xmlns:prov="http://www.w3.org/ns/prov#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:skos="http://www.w3.org/2004/02/skos/core#"
-     xmlns:terms="http://purl.org/dc/terms/">
+     xmlns:vcard="http://www.w3.org/2006/vcard/ns#"
+     xmlns:owlTime="http://www.w3.org/2006/time#">
     <owl:Ontology rdf:about="http://www.w3.org/ns/org#">
-        <terms:contributor>
-            <rdf:Description>
-                <foaf:mbox>mpoveda@fi.upm.es</foaf:mbox>
-                <foaf:name>María Poveda Villalón</foaf:name>
-            </rdf:Description>
-        </terms:contributor>
-        <terms:contributor>
-            <rdf:Description>
-                <foaf:mbox>emontiel@fi.upm.es</foaf:mbox>
-                <foaf:name>Elena Montiel Ponsoda</foaf:name>
-            </rdf:Description>
-        </terms:contributor>
-        <terms:contributor>
-            <rdf:Description>
-                <foaf:mbox>ogiraldo@fi.upm.es</foaf:mbox>
-                <foaf:name>Olga Ximena Giraldo</foaf:name>
-            </rdf:Description>
-        </terms:contributor>
-        <terms:contributor>
+        <dct:contributor>
             <rdf:Description>
                 <foaf:homepage rdf:resource="http://www.asahi-net.or.jp/~ax2s-kmtn/"/>
                 <foaf:name>Shuji Kamitsuna</foaf:name>
             </rdf:Description>
-        </terms:contributor>
-        <terms:contributor>
+        </dct:contributor>
+        <dct:contributor>
             <rdf:Description>
                 <foaf:mbox>lupe@fi.upm.es</foaf:mbox>
                 <foaf:name>Guadalupe Aguado de Cea</foaf:name>
             </rdf:Description>
-        </terms:contributor>
-        <terms:contributor>
-            <rdf:Description>
-                <foaf:mbox>antonio.maccioni@agid.gov.it</foaf:mbox>
-                <foaf:name>Antonio Maccioni</foaf:name>
-            </rdf:Description>
-        </terms:contributor>
-        <terms:contributor>
-            <rdf:Description>
-                <foaf:mbox>giorgia.lodi@agid.gov.it</foaf:mbox>
-                <foaf:name>Giorgia Lodi</foaf:name>
-            </rdf:Description>
-        </terms:contributor>
-        <terms:contributor>
-            <rdf:Description>
-                <foaf:mbox>dave@epimorphics.com</foaf:mbox>
-                <foaf:name>Dave Reynolds</foaf:name>
-            </rdf:Description>
-        </terms:contributor>
-        <terms:contributor>
+        </dct:contributor>
+        <dct:contributor>
             <rdf:Description>
                 <foaf:mbox>dguardiola@quinode.fr</foaf:mbox>
                 <foaf:name>Dominique Guardiola</foaf:name>
             </rdf:Description>
-        </terms:contributor>
-        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-28</terms:created>
-        <terms:license rdf:resource="http://www.opendatacommons.org/licenses/pddl/1.0/"/>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-09</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-10-08</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-09-30</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-06</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-15</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-16</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-02</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-25</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-05</terms:modified>
-        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-04-12</terms:modified>
-        <terms:title xml:lang="en">Core organization ontology</terms:title>
-        <terms:title xml:lang="it">Ontologia delle organizzazioni</terms:title>
-        <terms:title xml:lang="fr">Ontologie des organisations</terms:title>
-        <terms:title xml:lang="es">Ontología de organizaciones</terms:title>
+        </dct:contributor>
+        <dct:contributor>
+            <rdf:Description>
+                <foaf:mbox>mpoveda@fi.upm.es</foaf:mbox>
+                <foaf:name>María Poveda Villalón</foaf:name>
+            </rdf:Description>
+        </dct:contributor>
+        <dct:contributor>
+            <rdf:Description>
+                <foaf:mbox>antonio.maccioni@agid.gov.it</foaf:mbox>
+                <foaf:name>Antonio Maccioni</foaf:name>
+            </rdf:Description>
+        </dct:contributor>
+        <dct:contributor>
+            <rdf:Description>
+                <foaf:mbox>ogiraldo@fi.upm.es</foaf:mbox>
+                <foaf:name>Olga Ximena Giraldo</foaf:name>
+            </rdf:Description>
+        </dct:contributor>
+        <dct:contributor>
+            <rdf:Description>
+                <foaf:mbox>dave@epimorphics.com</foaf:mbox>
+                <foaf:name>Dave Reynolds</foaf:name>
+            </rdf:Description>
+        </dct:contributor>
+        <dct:contributor>
+            <rdf:Description>
+                <foaf:mbox>giorgia.lodi@agid.gov.it</foaf:mbox>
+                <foaf:name>Giorgia Lodi</foaf:name>
+            </rdf:Description>
+        </dct:contributor>
+        <dct:contributor>
+            <rdf:Description>
+                <foaf:mbox>emontiel@fi.upm.es</foaf:mbox>
+                <foaf:name>Elena Montiel Ponsoda</foaf:name>
+            </rdf:Description>
+        </dct:contributor>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-28</dct:created>
+        <dct:license rdf:resource="http://www.opendatacommons.org/licenses/pddl/1.0/"/>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-06-09</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-10-08</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-09-30</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2012-10-06</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-02-15</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2013-12-16</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-02</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-01-25</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-02-05</dct:modified>
+        <dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2014-04-12</dct:modified>
+        <dct:title xml:lang="en">Core organization ontology</dct:title>
+        <dct:title xml:lang="it">Ontologia delle organizzazioni</dct:title>
+        <dct:title xml:lang="fr">Ontologie des organisations</dct:title>
+        <dct:title xml:lang="es">Ontología de organizaciones</dct:title>
         <rdfs:comment xml:lang="it">Vocabolario per descrivere strutture organizzative, le quali possono essere specializzate in una vasta varietà di tipi di organizzazione</rdfs:comment>
         <rdfs:comment xml:lang="es">Vocabulario para describir organizaciones, adaptable a una amplia variedad de ellas.</rdfs:comment>
         <rdfs:comment xml:lang="en">Vocabulary for describing organizational structures, specializable to a broad variety of types of organization.</rdfs:comment>
@@ -721,7 +724,7 @@
         <rdfs:comment xml:lang="it">Indica l&apos;organizzazione che è stata creata o mutata a seguito dell&apos;evento. È l&apos;inverso di `org:resultedFrom`.</rdfs:comment>
         <rdfs:comment xml:lang="en">Indicates an organization which was created or changed as a result of the event. Inverse of `org:resultedFrom`.</rdfs:comment>
         <rdfs:comment xml:lang="fr">Indique une organisation qui a été créée ou a été modifiée à la suite d&apos;un Évènement de changement. Inverse de `org:resultedFrom`.</rdfs:comment>
-        <rdfs:comment xml:lang="es">Organización que ha sido creada o modificada tras un evento específico.  Es la relación inversa de `org:resultedFrom`.</rdfs:comment>
+        <rdfs:comment xml:lang="es">Organización que ha sido creada o modificada tras un evento específico.  Es la relación inversa de `org:resultedFrom`.</rdfs:comment>
         <rdfs:comment xml:lang="ja">出来事の結果、作成、変更された組織を示します。</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.w3.org/ns/org"/>
         <rdfs:label xml:lang="fr">a donné naissance à</rdfs:label>
@@ -1204,3 +1207,4 @@
 
 
 <!-- Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi -->
+
